@@ -1,0 +1,16 @@
+{
+  "name": "yireo/codeception",
+  "description": "Yireo additions for Codeception",
+  "type": "composer",
+  "authors": [
+    {
+      "name": "Jisse Reitsma",
+      "email": "jisse@yireo.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yireo\\Codeception\\": "src/"
+    }
+  }
+}
