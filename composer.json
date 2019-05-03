@@ -1,5 +1,5 @@
 {
-  "name": "yireo/codeception",
+  "name": "yireo/magento2-codeception",
   "description": "Yireo additions for Codeception",
   "type": "composer",
   "authors": [
@@ -8,6 +8,11 @@
       "email": "jisse@yireo.com"
     }
   ],
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog": "*",
+    "php": "^7.1"
+  },
   "autoload": {
     "psr-4": {
       "Yireo\\Codeception\\": "src/"
