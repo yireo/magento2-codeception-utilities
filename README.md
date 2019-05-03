@@ -17,18 +17,18 @@ To install this package, use the following:
 
     composer require yireo/magento2-codeception-utilities
 
-Please note that this package is NOT a Magento 2 module. There is no need to 
+Please note that this package is NOT a Magento 2 module. There is no need to enable any module here.
 
 ## Magento 2 Bootstrap
-Add the following to your `codeception.yml`:
+Add the following to your `codeception.yml` in the Magento root:
 
     extensions:
         enabled:
             - Yireo\Codeception\Extension\MagentoBootstrap
 
-The `url` within the WebDriver module is now automatically configured with the URL of your Magento 2 shop, plus the Magento bootstrap is run automatically.
+Once this extension is active in Codeception, it will run the Magento 2 bootstrap. The `url` within the WebDriver module is now automatically configured with the URL of your Magento 2 shop, plus the Magento bootstrap is run automatically.
 
-Because we meant this for the Codeception installation to be local, this would also assume your Magento 2 developer environment is picked up with the appropriate Base URL. 
+Because our approach assumes the Codeception installation to be run in a local environment, this would also assume your Magento 2 developer environment is picked up with the appropriate Base URL. 
 
 ## Using `Utils` in your tests
 See the `example/` folder for example CESTs to re-use information of Magento 2 within your tests. You can for instance use the utility class `\Yireo\Codeception\Utils\Product` to load a random product, so you can easily navigate to its product URL and scan for attributes. 
