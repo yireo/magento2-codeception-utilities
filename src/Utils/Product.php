@@ -58,6 +58,7 @@ class Product
         $urlParts = parse_url($product->getProductUrl());
         $url = $urlParts['path'];
         $url = str_replace('ide-codeception.php/', '', $url);
+        $url = str_replace('codecept/', '', $url);
         return $url;
     }
 }
