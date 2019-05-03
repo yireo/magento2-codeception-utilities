@@ -1,7 +1,9 @@
 {
-  "name": "yireo/magento2-codeception",
+  "name": "yireo/magento2-codeception-utilities",
   "description": "Yireo additions for Codeception",
   "type": "composer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yireo/magento2-codeception-utilities",
   "authors": [
     {
       "name": "Jisse Reitsma",
