@@ -12,7 +12,7 @@ use Magento\Framework\App\ObjectManager;
 /**
  * Class Product
  *
- * @package Jola\Codeception\Utils
+ * @package Yireo\Codeception\Utils
  */
 class Product
 {
