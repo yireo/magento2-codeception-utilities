@@ -16,7 +16,7 @@ use Magento\Framework\App\ObjectManager;
 
 /**
  * Class MagentoBootstrap
- * @package Yireo\Codeception\Extension
+ * @package Jola\Codeception\Extension
  */
 class MagentoBootstrap extends Extension
 {
