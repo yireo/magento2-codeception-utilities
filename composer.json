@@ -17,7 +17,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Yireo\\Codeception\\": "src/"
+      "Yireo\\Codeception\\": "src/",
+      "Yireo\\Codeception\\Tests\\": "tests/"
     }
   }
 }
